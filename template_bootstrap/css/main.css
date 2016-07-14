@@ -1,0 +1,156 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+header .top_bg {
+	background: url(../img/top_bg1.jpg) no-repeat center;
+	min-height: 644px;
+	position: relative;
+	color: #fff;
+	font-weight: normal;
+}
+
+header .text_wrap {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	text-align: center;
+}
+
+header .text_wrap h1 {
+	font-size: 42px;
+}
+
+header .text_wrap span {
+	font-size: 20px;
+}
+
+header .text_wrap button {
+	margin-top: 60px;
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 10px;
+	background-color: #777;
+	text-transform: uppercase;
+}
+
+header .mob_map_wrap {
+	position: absolute;
+	top: 47px;
+	right: 0;
+}
+
+header .mob_map_wrap img {
+	height: 550px;
+}
+
+.meet_block {
+	position: relative;
+	height: 750px;
+	background-color: #F7F8FA;
+}
+
+.meet_block .app_brief_wrap {
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+
+.meet_block .app_brief_wrap img {
+	height: 550px;
+}
+
+.meet_block .meet_text_wrap {
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+
+.features_block {
+	margin-top: 80px;
+	position: relative;
+}
+
+.features_block .links {
+	
+}
+
+.features_block .links_left {
+	text-align: right;
+}
+
+.features_block .links_left .icon_wrap {
+	float: right;
+	margin-left: 15px;
+	height: 100px;
+}
+
+.features_block .marg_link_left {
+	display: block;
+	margin-top: 200px;
+}
+
+.features_block .marg_link_right {
+	display: block;
+	margin-top: 200px;
+}
+
+.features_block .links_right .icon_wrap {
+	float: left;
+	margin-right: 15px;
+	height: 100px;
+}
+
+.features_block .iphone_block {
+	text-align: center;
+}
+
+.features_block .iphone_block img {
+	margin-top: 60px;
+	height: 500px;
+}
+
+.modern_block .modern_text_wrap {
+	
+}
