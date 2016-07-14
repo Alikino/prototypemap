@@ -1,18 +1,18 @@
 *::-webkit-input-placeholder {
 	color: #666;
-	opacity: 1;
+	opacity: .3;
 }
 *:-moz-placeholder {
 	color: #666;
-	opacity: 1;
+	opacity: .3;
 }
 *::-moz-placeholder {
 	color: #666;
-	opacity: 1;
+	opacity: .3;
 }
 *:-ms-input-placeholder {
 	color: #666;
-	opacity: 1;
+	opacity: .3;
 }
 
 body input:focus:required:invalid,
@@ -73,6 +73,7 @@ header .text_wrap button {
 	border-radius: 10px;
 	background-color: #777;
 	text-transform: uppercase;
+	outline:none;
 }
 
 header .mob_map_wrap {
@@ -106,6 +107,8 @@ header .mob_map_wrap img {
 	top: 80px;
 	left: 0;
 }
+
+
 
 .features_block {
 	margin-top: 80px;
@@ -151,6 +154,106 @@ header .mob_map_wrap img {
 	height: 500px;
 }
 
+.modern_block {
+	margin-top: 140px;
+}
+
 .modern_block .modern_text_wrap {
-	
+
+}
+
+.modern_block .modern_iphone_wrap img {
+	height: 550px;
+}
+
+.get_block {
+	margin-top: 100px;
+	background: url(../img/footer_bg.jpg) no-repeat bottom center;
+	height: 450px;
+	text-align: center;
+}
+
+.get_block h1 {
+	margin-top: 150px;
+	color: #fff;
+}
+
+.get_block input {
+	padding: 6px 20px;
+	height: 53px;
+	width: 324px;
+	background: #FFF;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	outline:none;
+}
+
+.get_block input:focus {
+	border: 1px solid #008ed6;
+}
+
+.get_block button {
+	padding: 16px 25px;
+	margin-left: 10px;
+	height: 53px;
+	width: 150px;
+	background: #008ed6;
+	border: none;
+	border-radius: 6px;
+	outline:none;
+	color: #fff;
+	font-size: 18px;
+}
+
+.message_block {
+	margin-top: 120px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.message_block input,
+.message_block textarea {
+	height: 50px;
+	display: block;
+	width: 345px;
+	box-shadow: none;
+	border: 1px solid #ccc;
+	padding: 6px 12px;
+	border-radius: 8px;
+	outline:none;
+}
+
+.message_block input:focus,
+.message_block textarea:focus {
+	border: 1px solid #008ed6;
+}
+
+.message_block .name_input {
+	float: right;
+}
+
+.message_block .email_input {
+	float: left;
+}
+
+.message_block .subject_input {
+	margin: 30px auto;
+	width: 718px;
+}
+
+.message_block textarea {
+	height: 172px;
+	width: 718px;
+	margin: 0 auto;
+}
+
+.message_block button {
+	background-color: #008ed6;
+	border-radius: 4px;
+	min-width: 150px;
+	padding: 16px 25px;
+	margin: 20px;
+	border: none;
+	color: #fff;
+	outline:none;
 }
