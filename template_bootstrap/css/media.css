@@ -2,27 +2,157 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	header .mob_map_wrap img {
+		margin-top: 32px;
+		width: 68%;
+	}
 
+	.features_block .iphone_block img {
+		margin-top: 60px;
+		width: 70%;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	header .text_wrap h1 {
+		font-size: 34px;
+	}
+
+	header .text_wrap span {
+		font-size: 16px;
+	}
+
+	header .mob_map_wrap img {
+		margin-top: 54px;
+		width: 80%;
+	}
+
+	.meet_block .app_brief_wrap img {
+		width: 60%;
+	}
+
+	.meet_block .meet_text_wrap {
+		text-align: center;
+	}
+
+	.features_block .iphone_block img {
+		margin-top: 80px;
+		width: 90%;
+	}
+
+	.features_block h2,
+	.features_block p {
+		font-size: 120%;
+	}
+
+	.features_block p {
+		font-size: 90%;
+	}
+
+	.modern_block .modern_text_wrap {
+		text-align: center;	
+	}
+
+	.message_block input,
+	.message_block textarea {
+		width: 100%;
+	}
+
+	.message_block .col-md-12 {
+		padding: 0;
+	}
+
+	.message_block .email_input {
+	margin-top: 30px;
+}
+
+	.message_block .subject_input {
+		width: 100%;
+	}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+	.menu .menu_ul {
+		display: none;
+		position: absolute;
+    top: -11px;
+    width: 100%;
+    right: 72px;
+	}
+
+	.menu .menu_ul li {
+		border-radius: 4px;
+		background-color: #337ab7;
+		padding: 10px;
+		text-align: center;
+		width: 60%;
+		display: inline-block;
+		border-bottom: 1px solid #fff;
+	}
+
+	.menu .menu_ul li a {
+		text-transform: uppercase;
+		color: #fff;
+		display: inline-block;
+		width: 100%;
+	}
+
+	header .mob_map_wrap img {
+		width: 80%;
+	}
+
+	.meet_block .app_brief_wrap img {
+		width: 70%;
+	}
+
+	.features_block .links {
+		text-align: center;	
+	}
+
+	.features_block .links .icon_wrap {
+		margin: 80px 0 0 0;
+		height: 60px;
+		float: none;
+	}
+
+	.features_block .iphone_block img {
+		margin-top: 80px;
+		width: 40%;
+	}
+
+	.get_block input {
+		margin-bottom: 40px;
+		width: 80%;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.meet_block .app_brief_wrap img {
+		width: 80%;
+	}
+
+	.features_block .iphone_block img {
+		margin-top: 80px;
+		width: 55%;
+	}
+
+	.get_block input {
+		width: 90%;
+	}
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.get_block input {
+		width: 95%;
+	}
 }
 
 
@@ -48,7 +178,7 @@
 
 }
 
- /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }

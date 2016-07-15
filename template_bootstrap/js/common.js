@@ -140,13 +140,50 @@ $(document).ready(function() {
 		// 		return false;
 		// 	};
 		// });
-};
-$(document).ready(function() {
-	resizeWindow();
-});
-$(window).bind("resize", function() {
-	viewport.changed(function(){
+	};
+	$(document).ready(function() {
 		resizeWindow();
 	});
-});
+	$(window).bind("resize", function() {
+		viewport.changed(function(){
+			resizeWindow();
+		});
+	});
 })(jQuery, document, window, ResponsiveBootstrapToolkit);
+
+
+
+
+
+jQuery(function($) {
+	$(window).scroll(function(){
+		if($(this).scrollTop()>150){
+			$('.menu').fadeIn(800)
+		}
+		else if ($(this).scrollTop()<150){
+			$('.menu').fadeOut(800)
+		};
+	});
+});
+
+$('.menu_button').click(function () {
+	$('.menu_ul').slideToggle('slow');
+})
+
+
+ 
+$(document).ready(function(){
+	$(".menu").on("click","a", function (event) {
+		//отменяем стандартную обработку нажатия по ссылке
+		event.preventDefault();
+
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+			top = $(id).offset().top;
+		
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top}, 1000);
+	});
+});
