@@ -86,7 +86,7 @@
 
 	.menu .menu_ul li {
 		border-radius: 4px;
-		background-color: #337ab7;
+		background-color: #008ed6;
 		padding: 10px;
 		text-align: center;
 		width: 60%;
@@ -95,10 +95,15 @@
 	}
 
 	.menu .menu_ul li a {
+		opacity: 1;
 		text-transform: uppercase;
 		color: #fff;
 		display: inline-block;
 		width: 100%;
+	}
+
+	.menu .menu_ul li a:hover {
+		opacity: .8;
 	}
 
 	header .mob_map_wrap img {
@@ -170,12 +175,14 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+	.menu .menu_ul {
+		display: block !important;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	
 }
 
 /* Large Devices, Wide Screens */
