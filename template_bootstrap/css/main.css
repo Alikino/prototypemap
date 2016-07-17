@@ -271,9 +271,7 @@ header .mob_map_wrap img {
 
 .map_block {
 	margin-top: 100px;
-	background-image: url(http://gotowall.com/wallpapers/[gotowall.com]20111214_113603_7364.jpg);
-	background-position: top center;
-	background-color: rgba(50, 50, 50, .1);
+	background: url(../img/top_bg1.jpg) no-repeat center;
 	text-align: center;
 }
 
